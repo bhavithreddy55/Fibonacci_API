@@ -24,8 +24,8 @@ The API is designed to be simple, scalable, and deployable in a production envir
 
 1. ##### Clone the Repository
      ```bash
-      git clone https://github.com/your-username/FibonacciService.git
-      cd FibonacciService
+      git clone URL
+      cd Fibonacci_API
     ```
 2. ##### Create a Virtual Environment:
     ```bash
