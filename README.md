@@ -63,7 +63,22 @@ The API is designed to be simple, scalable, and deployable in a production envir
      ```bash
     python3 -m pytest
     ```
-
+    You can use tools like Postman and browser to test the API by sending GET requests to the endpoint with different values for n
+    #### Example Request:
+     ```bash
+     http://localhost:5000/api/fibonacci?n=167
+    ```
+    #### Example Response:
+     ```bash
+     {
+       "data": {
+          "input": 167,
+          "result": 35600075545958458963222876581316753
+        },
+       "message": "Fibonacci number computed successfully.",
+       "status": "success"
+      }
+    ```
 ## API Reference
 
 #### Get the nth Fibonacci Number
