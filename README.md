@@ -173,4 +173,4 @@ To handle a high number of requests, you can:
 - Deploy multiple instances of the service using Docker or Kubernetes.
 - Implement caching (e.g., Redis) to reduce computation time for repeated requests.
 - Use Kubernetes Horizontal Pod Autoscaler (HPA) to automatically scale pods based on CPU, memory or custom metrics.
-- Define resource requests and limits in your Kubernetes deployment to enable HPA to function efficiently.
+- Define resource requests and limits in Kubernetes deployment to enable HPA to function efficiently.
